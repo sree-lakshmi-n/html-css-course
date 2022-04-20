@@ -32,10 +32,10 @@ p {
 li {
   font-size: 20px;
 }
-footer p {
+/* footer p {
   /* Descendent selector*/
-  font-size: 16px;
-}
+/* font-size: 16px;
+} */
 /*
 Suppose we only want the paragraphs that are inside of headers,
 which are inside of articles, to be italic.
@@ -49,3 +49,11 @@ But we are now even more encoding the HTML structure into our CSS selectors, and
 And so that's not a good idea.
 So, we use class and id selectors.
 */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
+}
