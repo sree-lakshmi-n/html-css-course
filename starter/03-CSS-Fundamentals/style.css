@@ -83,3 +83,8 @@ Working with colours
 .main-header {
   background-color: #f7f7f7;
 }
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
