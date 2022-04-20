@@ -5,6 +5,12 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 h1 {
   font-size: 26px;
@@ -69,3 +75,11 @@ In real life, we always use classes, rather than ids.
 By using classes, we're prepared for future. So that even if we add more of a kind, we needn't change its earlier declaration of id to class.
 This very act of modifying can give rise to a lot of bugs in larger projects.
 */
+
+/*
+Working with colours
+
+*/
+header {
+  background-color: #f7f7f7;
+}
