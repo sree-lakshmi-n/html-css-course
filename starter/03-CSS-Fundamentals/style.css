@@ -80,6 +80,6 @@ This very act of modifying can give rise to a lot of bugs in larger projects.
 Working with colours
 
 */
-header {
+.main-header {
   background-color: #f7f7f7;
 }
