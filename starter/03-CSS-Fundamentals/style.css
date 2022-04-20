@@ -9,3 +9,9 @@ h2 {
 }
 /* It's okay if font-size of h2 is bigger than h1.
 h1, h2 tags are all about semantics, rather than styling */
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5; /* we use a value without unit. Here, it indicates
+  the line-height is 1.5 times the font-size*/
+}
