@@ -36,3 +36,16 @@ footer p {
   /* Descendent selector*/
   font-size: 16px;
 }
+/*
+Suppose we only want the paragraphs that are inside of headers,
+which are inside of articles, to be italic.
+
+ article header p{
+     font-style: italic;
+ }    
+This works and is called nested descendent selector
+
+But we are now even more encoding the HTML structure into our CSS selectors, and that can make our code hard to maintain in the future if we ever change our HTML.
+And so that's not a good idea.
+So, we use class and id selectors.
+*/
