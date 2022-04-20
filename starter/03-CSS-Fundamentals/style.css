@@ -4,3 +4,8 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
 }
+h2 {
+  font-size: 40px;
+}
+/* It's okay if font-size of h2 is bigger than h1.
+h1, h2 tags are all about semantics, rather than styling */
