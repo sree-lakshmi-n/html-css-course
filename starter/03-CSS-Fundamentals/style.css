@@ -78,7 +78,6 @@ This very act of modifying can give rise to a lot of bugs in larger projects.
 
 /*
 Working with colours
-
 */
 .main-header {
   background-color: #f7f7f7;
@@ -88,3 +87,51 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+/*
+Pseudo-classes
+*/
+/*
+first child pseudo class here will select all the li elements that are
+the first child elements of its parent elements
+*/
+li:first-child {
+  font-weight: bold;
+}
+/*
+last child pseudo class here will select all the li elements that are
+the last child elements of its parent elements
+*/
+li:last-child {
+  font-style: italic;
+}
+li:nth-child(2) {
+  /* color: red; */
+}
+/*
+nth child pseudo class here will select specific elements of its parent elements 
+*/
+li:nth-child(odd) {
+  /* even is also a keyword */
+  /* color: red; */
+}
+
+article p:first-child {
+  color: red;
+}
+/*
+Nothing happens. No paragraph turned red.
+The misconception is that this selector here should have selected the first p element inside of the article.
+
+The paragraph, 'Posted by Laura Jones on Monday, June 21st 2027' is in fact the first paragraph inside of the article however, not the first child of the article.
+The first child of article is actually header. So this would only work if a paragraph, would actually be to first element of the article.
+*/
+/* article p:last-child {
+  color: red;
+} */
+/*
+  This works. Since the p element was the last child of the article.
+  */
+/*
+Used pseudo-classes mostly when all the child elements are the same.
+*/
