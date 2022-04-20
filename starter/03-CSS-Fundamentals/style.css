@@ -64,3 +64,8 @@ So, we use class and id selectors.
 .related {
   list-style-type: none;
 }
+/*
+In real life, we always use classes, rather than ids. 
+By using classes, we're prepared for future. So that even if we add more of a kind, we needn't change its earlier declaration of id to class.
+This very act of modifying can give rise to a lot of bugs in larger projects.
+*/
