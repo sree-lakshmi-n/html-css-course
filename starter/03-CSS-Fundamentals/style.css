@@ -25,3 +25,7 @@ p {
   line-height: 1.5; /* we use a value without unit. Here, it indicates
   the line-height is 1.5 times the font-size*/
 }
+li {
+  font-size: 20px;
+  font-family: sans-serif;
+}
