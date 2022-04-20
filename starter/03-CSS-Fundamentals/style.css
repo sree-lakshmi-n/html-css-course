@@ -135,3 +135,39 @@ The first child of article is actually header. So this would only work if a para
 /*
 Used pseudo-classes mostly when all the child elements are the same.
 */
+
+/* Styling links */
+/* a {
+  color: #1098ad;
+} */
+/*
+We shouldn't simply select the anchor element and style it.
+Instead we should style a pseudo class of the anchor
+because that will then allow us to target different states.
+*/
+/* targets anchor elements with href attribute */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+/* <a> can exist without href attribute. This allows us to target only those anchor elements with links */
+
+/* Visited links */
+a:visited {
+  /* color: #aaa; */
+  color: #1098ad;
+}
+
+/* hovered links */
+a:hover {
+  font-weight: bold;
+  color: orangered;
+  text-decoration: underline solid orangered;
+  /* (OR) text-decoration: underline orangered; */
+}
+
+/* active links */
+a:active {
+  background-color: black;
+  font-style: italic;
+}
