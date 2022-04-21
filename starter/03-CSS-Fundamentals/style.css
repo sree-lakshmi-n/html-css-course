@@ -200,3 +200,17 @@ a:active {
 }
 
 /* Centering our page */
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+/*
+margin set to auto, which stands for automatic.
+What this means is that the margin on the left needs to
+be the same than the margin on the right side.
+And they should both be calculated automatically
+by the browser.
+And so therefore this will mean that there will be a margin
+on the left and on the right, which will be exactly the same size.
+And therefore, as a result, the container will look centered inside of the body.
+*/
