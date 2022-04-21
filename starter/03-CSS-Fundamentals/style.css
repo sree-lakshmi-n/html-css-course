@@ -1,11 +1,29 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
   font-family: sans-serif;
   color: #444;
+  padding: 20px;
+}
+/*
+Working with colours
+*/
+.main-header {
+  background-color: #f7f7f7;
+}
+header {
+  margin-bottom: 30px;
+}
+article {
+  margin-bottom: 40px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  margin-bottom: 30px;
 }
 h1,
 h2,
@@ -16,27 +34,41 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  margin-bottom: 15px;
 }
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 /* It's okay if font-size of h2 is bigger than h1.
 h1, h2 tags are all about semantics, rather than styling */
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 15px;
 }
 p {
   font-size: 22px;
   line-height: 1.5; /* we use a value without unit. Here, it indicates
   the line-height is 1.5 times the font-size*/
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin-bottom: 15px;
+  padding-left: 30px;
 }
 li {
   font-size: 20px;
+  margin-bottom: 8px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 /* footer p {
   /* Descendent selector*/
@@ -70,23 +102,14 @@ So, we use class and id selectors.
 .related {
   list-style-type: none;
 }
+.related-section {
+  width: 50%;
+}
 /*
 In real life, we always use classes, rather than ids. 
 By using classes, we're prepared for future. So that even if we add more of a kind, we needn't change its earlier declaration of id to class.
 This very act of modifying can give rise to a lot of bugs in larger projects.
 */
-
-/*
-Working with colours
-*/
-.main-header {
-  background-color: #f7f7f7;
-}
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
 
 /*
 Pseudo-classes
@@ -171,3 +194,9 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Centering our page */
