@@ -40,6 +40,7 @@ h1 {
 h2 {
   font-size: 40px;
   margin-bottom: 30px;
+  position: relative;
 }
 /* It's okay if font-size of h2 is bigger than h1.
 h1, h2 tags are all about semantics, rather than styling */
@@ -290,5 +291,26 @@ h1::first-letter {
   font-size: 70px;
 } */
 p::first-line {
-  color: #1098ad;
+  /* color: #1098ad; */
+}
+
+/* Adjacent Element/ Sibling selector */
+/*
+Adjacent sibling is the sibling element that comes right after the given element 
+*/
+h3 + p {
+  /* color: red; */
+}
+h2::after {
+  content: "TOP"; /* Compulsory to give content */
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+
+  position: absolute;
+  top: -10px;
+  right: -25px;
+  color: #000000;
 }
