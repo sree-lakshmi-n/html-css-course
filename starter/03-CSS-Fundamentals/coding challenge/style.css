@@ -74,6 +74,7 @@ h2 {
   font-size: 18px;
   border: none;
   border-top: 5px solid black;
+  cursor: pointer;
 }
 .add-to-cart-btn:hover {
   background-color: white;
