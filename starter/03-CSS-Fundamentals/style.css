@@ -271,3 +271,24 @@ position: absolute;
   bottom: 50px;
   right: 50px;
 }
+
+/*
+Pseudo-elements
+*/
+/*
+Pseudo-classes are written with just one colon(:). 
+Eg. :first-child,:link,:visited, :nth-child()
+
+Pseudo-elements are written with two colons (::).
+Eg. ::after,::before,::first-letter
+*/
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+/* h2::first-letter {
+  font-size: 70px;
+} */
+p::first-line {
+  color: #1098ad;
+}
