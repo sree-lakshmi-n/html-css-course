@@ -5,7 +5,7 @@
 body {
   font-family: sans-serif;
   color: #444;
-  padding: 20px;
+  /* padding: 20px; */
 }
 /*
 Working with colours
@@ -213,4 +213,37 @@ by the browser.
 And so therefore this will mean that there will be a margin
 on the left and on the right, which will be exactly the same size.
 And therefore, as a result, the container will look centered inside of the body.
+*/
+
+/* Types of Boxes */
+/*
+Inline boxes - Those which occupy only the amount of space needed for its content. Eg. a, img, strong, em, button
+Don't create any line breaks before/ after the element.
+Heights and widths don't apply.
+Paddings and margins are applied only horizontally (left and right).
+
+display:inline;
+
+Block level boxes - Occupy all the space they can. Create line breaks after them. Eg. h1, p, div, body, main, header, 
+They are formatted visually as blocks.
+Occupy 100% of the parent width, no matter the content. Elements are stacked vertically by default, one after another.
+
+display:block;
+
+inline-block
+Looks like inline from the outside, behaves like block-level on the inside.
+Occupies only the content's space.
+Causes no line breaks
+
+*/
+nav a:link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
+/*
+Images act as inline-block elements.
 */
