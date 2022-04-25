@@ -5,6 +5,7 @@
 body {
   font-family: sans-serif;
   color: #444;
+  position: relative;
   /* padding: 20px; */
 }
 /*
@@ -247,3 +248,26 @@ nav a:link:last-child {
 /*
 Images act as inline-block elements.
 */
+
+/*
+Normal Flow
+- Default Positioning
+- Element is in flow
+- Elements are laid out according to their order in the HTML code
+position: relative;
+
+Absolute Positioning
+- Element is removed from the normal flow -> out of flow
+- No impact on surrounding elements, might overlap them
+- We use left, right, top, bottom to offset the element from its relatively positioned container
+position: absolute;
+*/
+.like-button {
+  padding: 0.6em;
+  font-size: 22px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
