@@ -314,3 +314,19 @@ h2::after {
   right: -25px;
   color: #000000;
 }
+
+/*
+HTML Debugging tools
+- HTML Validator
+- Diffchecker
+
+CSS Debugging tools
+
+*/
+
+/*
+if one selector is way more complex than the other, then many times it's actually the more complex one
+*/
+.main-header nav a:link {
+  margin-top: 100px;
+}
