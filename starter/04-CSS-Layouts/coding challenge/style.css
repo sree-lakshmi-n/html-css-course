@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  line-height: 2;
+}
+/* Container */
+article {
+  border: 5px solid black;
+  width: 60%;
+  margin: 2em auto;
+  position: relative;
+}
+
+/* Title */
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(243, 241, 241);
+  padding: 0.8em;
+  font-size: 20px;
+}
+h2::before {
+  content: "SALE";
+  position: absolute;
+  left: -4%;
+  top: -3%;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 0.2em 0.8em;
+  background-color: #a52a2a;
+  color: #ffffff;
+}
+/* Price and Shipping price */
+.price {
+  font-size: 22px;
+}
+.shipping-price {
+  color: rgb(117, 116, 116);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-size: 12px;
+  margin-bottom: 2em;
+}
+
+/* More info link */
+.more-info {
+  display: block;
+  margin-bottom: 1.5em;
+}
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/* Product Details */
+.pdt-details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.pdt-details li {
+  list-style: square;
+  margin-left: 20px;
+}
+.pdt-details li:last-child {
+  margin-bottom: 10px;
+}
+
+/* Add Cart Button */
+.add-to-cart-btn {
+  display: block;
+  width: 100%;
+  padding: 0.6em;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: none;
+  border-top: 5px solid black;
+  cursor: pointer;
+}
+.add-to-cart-btn:hover {
+  background-color: white;
+  color: black;
+}
+/* Colors section */
+.colors :nth-child(n) {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 1%;
+}
+.colors :nth-child(1) {
+  background-color: #000000;
+}
+.colors :nth-child(2) {
+  background-color: #3d3dcb;
+}
+.colors :nth-child(3) {
+  background-color: #df5e73;
+}
+.colors :nth-child(4) {
+  background-color: #e5e53d;
+}
+.colors :nth-child(5) {
+  background-color: #86b42a;
+}
+.colors :nth-child(6) {
+  background-color: #862222;
+}
