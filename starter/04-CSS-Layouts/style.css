@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -290,7 +290,7 @@ The height of the container element will not adjust to height of its child eleme
 
 Text and inline elements will wrap around the floated element. */
 .main-header {
-  background-color: red;
+  /* background-color: red; */
 }
 /* main-header got collapsed due to all its child elements set to float. 
 The red background color is seen due to the padding being set.
@@ -307,4 +307,15 @@ Another way is to use clearfix. */
   clear: both;
   display: block;
   /* clearing floats work only if element is a block element */
+}
+article {
+  width: 70%;
+  float: left;
+}
+aside {
+  width: 25%;
+  float: right;
+}
+footer {
+  clear: both;
 }
