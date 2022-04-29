@@ -1,8 +1,10 @@
 .el--1 {
   background-color: blueviolet;
+  align-self: flex-start;
 }
 .el--2 {
   background-color: orangered;
+  order: 2;
 }
 .el--3 {
   background-color: green;
@@ -10,12 +12,15 @@
 }
 .el--4 {
   background-color: goldenrod;
+  align-self: stretch;
 }
 .el--5 {
   background-color: palevioletred;
+  order: 1;
 }
 .el--6 {
   background-color: steelblue;
+  order: -1;
 }
 .el--7 {
   background-color: yellow;
@@ -34,5 +39,9 @@
   /* FLEXBOX */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
+}
+.el {
+  /* margin-right: 40px; */
 }
