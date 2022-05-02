@@ -200,7 +200,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -225,9 +225,9 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-h3 + p::first-line {
+/* h3 + p::first-line {
   /* color: red; */
-}
+/*} */
 
 h2 {
   /* background-color: orange; */
@@ -270,13 +270,13 @@ nav p {
 } */
 
 /* Float */
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
 .author {
   /* padding-left: 70px; */
-  float: left;
+/* float: left;
   padding-top: 10px;
   padding-left: 20px;
 }
@@ -285,32 +285,32 @@ h1 {
 }
 nav {
   float: right;
-}
+}  */
 /* Collapsing elements
 If all children of an element are out of flow.
 Eg, above h1 and nav are the only child elements of header and both of them are out of flow due to float being set.
 The height of the container element will not adjust to height of its child elements when all of its child elements are out of flow.
 
 Text and inline elements will wrap around the floated element. */
-.main-header {
+/* .main-header {
   /* background-color: red; */
-}
+/* }  */
 /* main-header got collapsed due to all its child elements set to float. 
 The red background color is seen due to the padding being set.
 To clear the floats, and empty div element with class of float is added to the main-header.
 */
-.clear {
-  /* clear: both; */
-  /* both because there were both left and right float child elements. If there was just either of them, choose clear: left; or clear:right; accordingly. */
-}
+/* .clear { */
+/* clear: both; */
+/* both because there were both left and right float child elements. If there was just either of them, choose clear: left; or clear:right; accordingly. */
+/* } */
 /* Adding empty divs manually everytime to clear floats is cumbersome. 
 Another way is to use clearfix. */
-.clearfix::after {
+/* .clearfix::after {
   content: "";
   clear: both;
   display: block;
   /* clearing floats work only if element is a block element */
-}
+/* }
 article {
   width: 70%;
   float: left;
@@ -322,4 +322,11 @@ aside {
 }
 footer {
   clear: both;
+} */
+
+/* Using Flexbox */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
