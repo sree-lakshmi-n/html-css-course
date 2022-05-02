@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 .el--1 {
   background-color: blueviolet;
   align-self: flex-start;
+  /* flex-grow: 1; */
+  /* It fills up remaining space*/
 }
 .el--2 {
   background-color: orangered;
@@ -40,8 +45,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
 }
 .el {
-  /* margin-right: 40px; */
+  /* DEFAULTS
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; */
+
+  /* flex-basis: 200px; */
+  /*
+By default, Flexbox is allowed to shrink elements so that they fit the container.
+And so that's what the flex shrink here set to one actually means.
+So again, if there is not enough space in a container to fit the items with the size that we described here using flex basis, then Flexbox is allowed to shrink these items by default because flex shrink is set to one.
+However, if we want to change that, then we can simply set this to zero.
+*/
+  /* flex-shrink: 0; */
+  /* Setting flex shrink to zero is not always advisable.*/
+  /* flex-grow: 1; */
+
+  flex: 1;
+  /* flex: 0 0 200px; */
 }
