@@ -29,6 +29,9 @@ body {
   padding: 20px 40px;
   margin-bottom: 60px;
   /* height: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav {
@@ -310,7 +313,7 @@ Another way is to use clearfix. */
   clear: both;
   display: block;
   /* clearing floats work only if element is a block element */
-/* }
+/* }*/
 article {
   width: 70%;
   float: left;
@@ -322,14 +325,10 @@ aside {
 }
 footer {
   clear: both;
-} */
+}
+*/
 
 /* Using Flexbox */
-.main-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .author-box {
   display: flex;
   margin-bottom: 15px;
@@ -357,4 +356,16 @@ footer {
   font-style: normal;
   margin-bottom: 5px;
   display: block;
+}
+.row {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+aside {
+  flex: 0 0 25%;
+}
+article {
+  margin-bottom: 0;
 }
