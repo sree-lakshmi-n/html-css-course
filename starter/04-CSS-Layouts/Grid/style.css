@@ -6,7 +6,7 @@
 }
 .el--3 {
   background-color: green;
-  height: 150px;
+  /* height: 150px; */
 }
 .el--4 {
   background-color: goldenrod;
@@ -28,13 +28,27 @@
   /* STARTER */
   font-family: sans-serif;
   background-color: #ddd;
-  font-size: 40px;
+  font-size: 20px;
   margin: 40px;
 
   /* CSS GRID */
+  display: grid;
+  height: 400px;
+  /* height specified for demo of fr unit in grid-template-rows */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  /* grid-template-columns: 1fr 1fr 1fr auto; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: 300px 200px; */
+  /* gap: 30px; */
+  /* grid-template-rows: 1fr 1fr; */
+  grid-template-rows: 1fr auto;
+  column-gap: 10px;
+  row-gap: 40px;
 }
 
 .container--2 {
+  display: none;
   /* STARTER */
   font-family: sans-serif;
   background-color: black;
