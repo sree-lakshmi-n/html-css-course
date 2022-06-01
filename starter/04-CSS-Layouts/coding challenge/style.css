@@ -44,7 +44,7 @@ h2::before {
   font-weight: bold;
   font-stretch: condensed;
   font-size: 12px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 /* More info link */
@@ -96,10 +96,10 @@ h2::before {
 }
 /* Colors section */
 .colors :nth-child(n) {
-  display: inline-block;
+  /* display: inline-block; */
   width: 25px;
   height: 25px;
-  margin-right: 2%;
+  /* margin-right: 2%; */
 }
 .colors :nth-child(1) {
   background-color: #000000;
@@ -156,3 +156,28 @@ h2::before {
 } */
 
 /* Flex layout settings */
+.pdt-price,
+.colors,
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.pdt-price,
+.colors {
+  align-items: center;
+}
+.pdt-pricing-component,
+.pdt-details-component {
+  line-height: 1.5;
+  flex: 1;
+  margin: 1em 0.5em 1em 3em;
+}
+.pdt-details-component {
+  padding-right: 0.5em;
+}
+.pdt-img-component {
+  flex: 1;
+}
+.pdt-price {
+  margin-bottom: 1em;
+}
