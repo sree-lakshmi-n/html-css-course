@@ -6,7 +6,7 @@
 }
 .el--3 {
   background-color: green;
-  /* height: 150px; */
+  height: 150px;
 }
 .el--4 {
   background-color: goldenrod;
@@ -45,18 +45,45 @@
   grid-template-rows: 1fr auto;
   column-gap: 10px;
   row-gap: 40px;
-}
 
-.container--2 {
+  /* temporary */
   display: none;
+}
+.el--8 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.el--2 {
+  /* grid-column: 1 / span 3; */
+  grid-column: 1;
+  grid-row: 2 / 3;
+  /* To span an element all the way to the end.  */
+  /* grid-column: 1/-1; */
+}
+.container--2 {
   /* STARTER */
   font-family: sans-serif;
   background-color: black;
   font-size: 40px;
-  margin: 100px;
+  margin: 40px;
 
-  width: 1000px;
-  height: 600px;
-
+  width: 500px;
+  height: 400px;
+  gap: 10px;
   /* CSS GRID */
+  display: grid;
+  grid-template-columns: 125px 200px 125px;
+  grid-template-rows: 250px 100px;
+
+  /* Aligning tracks inside the container: distribute empty space.  */
+  justify-content: center;
+  align-content: center;
+
+  /* Aligning items inside cells: moving items around inside cells */
+  align-items: center;
+  justify-items: center;
+}
+.el--3 {
+  align-self: end;
+  justify-self: end;
 }
