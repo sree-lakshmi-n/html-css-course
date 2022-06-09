@@ -142,9 +142,9 @@ li:last-child {
   margin: 0;
 }
 
-body {
-  /* background-color: orangered; */
-}
+/* body {
+   background-color: orangered; 
+} */
 
 /* .first-li {
   font-weight: bold;
@@ -158,9 +158,9 @@ li:last-child {
   font-style: italic;
 }
 
-li:nth-child(even) {
-  /* color: red; */
-}
+/* li:nth-child(even) {
+   color: red; 
+} */
 
 /* Misconception: this won't work! */
 /* article p:first-child {
@@ -326,7 +326,6 @@ aside {
 footer {
   clear: both;
 }
-*/
 
 /* Using Flexbox */
 .author-box {
@@ -357,7 +356,8 @@ footer {
   margin-bottom: 5px;
   display: block;
 }
-.row {
+/* Flexbox layout */
+/* .row {
   display: flex;
   gap: 75px;
   margin-bottom: 60px;
@@ -368,4 +368,4 @@ aside {
 }
 article {
   margin-bottom: 0;
-}
+} */
