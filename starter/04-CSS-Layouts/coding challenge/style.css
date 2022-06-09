@@ -156,9 +156,12 @@ h2::before {
 } */
 
 /* Flex layout settings */
+/* .container {
+  display: flex;
+  justify-content: space-between;
+} */
 .pdt-price,
-.colors,
-.container {
+.colors {
   display: flex;
   justify-content: space-between;
 }
@@ -169,15 +172,31 @@ h2::before {
 .pdt-pricing-component,
 .pdt-details-component {
   line-height: 1.5;
-  flex: 1;
-  margin: 1em 0.5em 1em 3em;
+  /* flex: 1; */
+  /* margin: 1em 0.5em 1em 3em; */
 }
 .pdt-details-component {
   padding-right: 0.5em;
 }
-.pdt-img-component {
+/* .pdt-img-component {
   flex: 1;
-}
+} */
 .pdt-price {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* Grid layout */
+article {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+header,
+.add-to-cart-btn {
+  grid-column: 1/-1;
+}
+
+.pdt-pricing-component,
+.pdt-details-component {
+  align-self: center;
 }
