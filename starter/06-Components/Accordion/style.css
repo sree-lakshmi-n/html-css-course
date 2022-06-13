@@ -29,3 +29,9 @@ body {
   font-family: "Inter", sans-serif;
   color: #343a40;
 }
+
+/* Accordion element layout and styling */
+.accordion {
+  width: 700px;
+  margin: auto;
+}
