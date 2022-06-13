@@ -36,6 +36,9 @@ body {
 .accordion {
   width: 700px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 /* Accordion components layout and styling */
 .item {
