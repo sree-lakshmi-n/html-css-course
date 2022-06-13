@@ -90,3 +90,9 @@ img {
   width: 24px;
   stroke: #087f5b;
 }
+.left-btn {
+  left: 0;
+}
+.right-btn {
+  right: 0;
+}
