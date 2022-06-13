@@ -79,6 +79,11 @@ img {
   width: 40px;
   position: absolute;
   border-radius: 50%;
+
+  /* Centering the icon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn-icon {
   height: 24px;
