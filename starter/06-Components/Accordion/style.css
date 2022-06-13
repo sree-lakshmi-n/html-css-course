@@ -8,3 +8,9 @@
   padding: 0;
   margin: 0;
 }
+
+/* General Styles */
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
