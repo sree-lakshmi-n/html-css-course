@@ -122,3 +122,8 @@ img {
   background-color: #fff;
   cursor: pointer;
 }
+
+/* Active dot styling */
+.dot--fill {
+  background-color: #087f5b;
+}
