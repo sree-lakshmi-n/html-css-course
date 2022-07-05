@@ -40,8 +40,16 @@ td {
   padding: 1em 1.5em;
   text-align: left;
 }
-thead th {
+thead tr {
   background-color: #087f5b;
   color: white;
+}
+thead th {
   width: 25%;
+}
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
 }
