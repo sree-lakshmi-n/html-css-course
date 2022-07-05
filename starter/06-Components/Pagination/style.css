@@ -49,6 +49,8 @@ div {
   justify-content: center;
   align-items: center;
   top: 50%;
+
+  cursor: pointer;
 }
 .btn-icon {
   stroke: #087f5b;
@@ -67,15 +69,18 @@ div {
   stroke: #ffffff;
 }
 
-span {
+.page-link:link,
+.page-link:visited {
   height: 2em;
   width: 2em;
   border-radius: 50%;
   text-align: center;
   line-height: 2em;
+  text-decoration: none;
+  color: #343a40;
 }
-span:hover,
-span:active {
+.page-link:hover,
+.page-link:active {
   background-color: #087f5b;
   color: #ffffff;
 }
