@@ -36,4 +36,6 @@ table {
 th,
 td {
   border: 1px solid #343a40;
+  padding: 1em 1.5em;
+  text-align: left;
 }
