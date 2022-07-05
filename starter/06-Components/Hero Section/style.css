@@ -49,3 +49,6 @@ h2 {
   width: 90%;
   margin: 0 auto;
 }
+header {
+  height: 100vh;
+}
