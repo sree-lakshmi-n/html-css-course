@@ -34,7 +34,7 @@ body {
 }
 div {
   display: flex;
-  gap: 1.5em;
+  gap: 0.8em;
   align-items: center;
 }
 .btn {
