@@ -32,6 +32,7 @@ table {
   width: 80%;
   /* border: 1px solid; */
   border-collapse: collapse;
+  font-size: 1.2em;
 }
 th,
 td {
