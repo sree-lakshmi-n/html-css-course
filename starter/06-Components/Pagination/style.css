@@ -29,3 +29,16 @@ body {
   /* Resetting line-height */
   line-height: 1;
 }
+.btn {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #087f5b;
+}
+.btn-icon {
+  stroke: #087f5b;
+  stroke-width: 1;
+  height: 1.5em;
+  width: 1.5em;
+}
