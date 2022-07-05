@@ -64,5 +64,17 @@ div {
 }
 .btn:hover .btn-icon,
 .btn:active .btn-icon {
-  stroke: white;
+  stroke: #ffffff;
+}
+
+span {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2em;
+}
+span:hover {
+  background-color: #087f5b;
+  color: #ffffff;
 }
