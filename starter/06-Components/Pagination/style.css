@@ -11,6 +11,10 @@ COLOR SYSTEM
 MAIN COLOR: #087f5b 
 GREY COLOR: #343a40
 */
+
+/* Inter font added */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
 *,
 *::before,
 *::after {
