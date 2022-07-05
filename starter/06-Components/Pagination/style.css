@@ -56,3 +56,13 @@ div {
   height: 1.5em;
   width: 1.5em;
 }
+
+/* Hover effects */
+.btn:hover,
+.btn:active {
+  background-color: #087f5b;
+}
+.btn:hover .btn-icon,
+.btn:active .btn-icon {
+  stroke: white;
+}
