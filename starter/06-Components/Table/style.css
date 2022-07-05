@@ -30,16 +30,16 @@ body {
 }
 table {
   width: 80%;
-  border: 1px solid;
+  /* border: 1px solid; */
   border-collapse: collapse;
 }
 th,
 td {
-  border: 1px solid #343a40;
+  /* border: 1px solid #343a40; */
   padding: 1em 1.5em;
   text-align: left;
 }
-thead {
+thead th {
   background-color: #087f5b;
   color: white;
 }
