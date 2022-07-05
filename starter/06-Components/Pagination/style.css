@@ -80,7 +80,9 @@ div {
   color: #343a40;
 }
 .page-link:hover,
-.page-link:active {
+.page-link:active,
+/* End selector - Selects elements only if both these classes are present */
+.page-link.page-link--current {
   background-color: #087f5b;
   color: #ffffff;
 }
