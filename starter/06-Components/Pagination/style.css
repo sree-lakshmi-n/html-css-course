@@ -35,6 +35,12 @@ body {
   border-radius: 50%;
   background-color: transparent;
   border: 1px solid #087f5b;
+
+  /* Centering the icon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
 }
 .btn-icon {
   stroke: #087f5b;
