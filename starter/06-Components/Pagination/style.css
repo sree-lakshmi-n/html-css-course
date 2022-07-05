@@ -29,6 +29,11 @@ body {
   /* Resetting line-height */
   line-height: 1;
 }
+div {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
 .btn {
   height: 2.5em;
   width: 2.5em;
