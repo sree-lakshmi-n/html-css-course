@@ -26,8 +26,9 @@ body {
   line-height: 1;
   display: flex;
   justify-content: center;
-  align-content: center;
+  margin-top: 6em;
 }
 table {
   width: 80%;
+  border: 1px solid;
 }
