@@ -74,7 +74,8 @@ span {
   text-align: center;
   line-height: 2em;
 }
-span:hover {
+span:hover,
+span:active {
   background-color: #087f5b;
   color: #ffffff;
 }
