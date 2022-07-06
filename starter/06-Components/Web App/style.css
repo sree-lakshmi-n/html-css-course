@@ -21,7 +21,7 @@ menu,
 section,
 main,
 aside {
-  padding-top: 1.2em;
+  /* padding-top: 1.2em; */
 }
 nav {
   background-color: #343a40;
@@ -32,6 +32,9 @@ menu {
   background-color: #7048e8;
   color: #fff;
   grid-column: 2/-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 section,
 aside {
