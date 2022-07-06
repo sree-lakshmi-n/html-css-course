@@ -55,6 +55,7 @@ header {
   position: relative;
   background: url(../hero.jpg);
   background-size: cover;
+  color: #ffffff;
 }
 .header-center {
   position: absolute;
