@@ -17,11 +17,10 @@ body {
   font-weight: bold;
 }
 nav,
-menu,
 section,
 main,
 aside {
-  /* padding-top: 1.2em; */
+  padding-top: 1.2em;
 }
 nav {
   background-color: #343a40;
@@ -33,8 +32,9 @@ menu {
   color: #fff;
   grid-column: 2/-1;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 1em;
+  padding: 0 1em;
 }
 section,
 aside {
@@ -42,4 +42,18 @@ aside {
 }
 main {
   background-color: #f8f9fa;
+}
+menu > button {
+  background-color: #5f3dc4;
+}
+button {
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  padding: 0.5em 0.8em;
+  cursor: pointer;
+}
+menu :last-child {
+  background-color: #d6336c;
+  margin-left: auto;
 }
