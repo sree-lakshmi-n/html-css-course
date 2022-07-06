@@ -61,3 +61,6 @@ header {
   /* In relation to element size */
   transform: translate(-50%, -50%);
 }
+.header-center-inner {
+  width: 50%;
+}
