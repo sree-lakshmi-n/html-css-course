@@ -16,6 +16,13 @@ body {
   text-align: center;
   font-weight: bold;
 }
+nav,
+menu,
+section,
+main,
+aside {
+  padding-top: 1.2em;
+}
 nav {
   background-color: #343a40;
   color: #fff;
