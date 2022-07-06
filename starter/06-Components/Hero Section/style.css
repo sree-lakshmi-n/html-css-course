@@ -51,4 +51,13 @@ h2 {
 }
 header {
   height: 100vh;
+  position: relative;
+}
+.header-center {
+  position: absolute;
+  /* In relation to parent size */
+  left: 50%;
+  top: 50%;
+  /* In relation to element size */
+  transform: translate(-50%, -50%);
 }
