@@ -133,8 +133,8 @@ Privacy & terms
 - Hero
 - Featured in
 - How it works
-- Meals (list of diets)
+- Meals (and list of diets)
 - Testimonials + Gallery
 - Pricing & Features
-- Call to Action
+- Call to Action (CTA)
 - Footer
