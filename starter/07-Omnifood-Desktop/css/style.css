@@ -49,10 +49,3 @@ body {
   font-weight: 400;
   color: #555;
 }
-.class {
-  /* max-width: 1000px; */
-  max-width: 50rem;
-  padding: 10rem;
-  background-color: aquamarine;
-  font-size: 2rem;
-}
