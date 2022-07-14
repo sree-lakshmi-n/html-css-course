@@ -52,6 +52,8 @@ body {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
 }
 .hero-img {
   width: 100%;
