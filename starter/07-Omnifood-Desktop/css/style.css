@@ -93,6 +93,8 @@ body {
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 1rem;
+  /* Put transition on original state */
+  transition: background-color 0.3s;
 }
 .btn--full:link,
 .btn--full:visited {
