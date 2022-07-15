@@ -51,6 +51,7 @@ body {
 }
 .hero-section {
   background-color: #fdf2e9;
+  padding: 9.6rem 0;
 }
 .hero {
   display: grid;
@@ -58,6 +59,7 @@ body {
   max-width: 130rem;
   margin: 0 auto;
   align-items: center;
+  gap: 9.6rem;
 }
 .hero-img {
   width: 100%;
