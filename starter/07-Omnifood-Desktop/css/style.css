@@ -32,7 +32,8 @@ Default: 1
 - Spacing (px):
 2/ 4/ 8/ 12/ 16/ 24/ 32/ 48/ 64/ 80/ 96/ 128
 */
-
+/* Rubik font imported */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 /* Global Reset */
 * {
   padding: 0;
