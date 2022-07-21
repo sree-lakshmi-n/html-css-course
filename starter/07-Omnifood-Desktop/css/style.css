@@ -119,6 +119,11 @@ body {
 .logo {
   height: 2.4rem;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /*************************/
 /* HERO SECTION */
