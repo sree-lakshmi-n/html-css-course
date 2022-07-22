@@ -64,6 +64,29 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /*************************/
 
+/* For centering */
+.container {
+  /* 1140px is also a conventional width */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/* Grid with spacing */
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+/* Grid columns */
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
 /* h1 */
 .heading-primary {
   font-size: 5.2rem;
@@ -232,33 +255,4 @@ body {
 .how-section {
   padding: 9.6rem 0;
   background-color: cadetblue;
-}
-.grid {
-  display: grid;
-  gap: 9.6rem;
-}
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-.grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-.grid--4-cols {
-  grid-template-columns: repeat(4, 1fr);
-}
-.how-section div {
-  padding: 100px;
-  font-size: 50px;
-}
-.how-section div:nth-child(1) {
-  background-color: chartreuse;
-}
-.how-section div:nth-child(2) {
-  background-color: tomato;
-}
-.how-section div:nth-child(3) {
-  background-color: slateblue;
-}
-.how-section div:nth-child(4) {
-  background-color: brown;
 }
