@@ -93,6 +93,9 @@ body {
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
+  /* We use gray, and not earthy colors like this because it will make us move away from startup web personality */
+  /* Generated from #e67e22 using maketintsandshades.com */
+  color: #45260a;
 }
 .heading-primary {
   font-size: 5.2rem;
