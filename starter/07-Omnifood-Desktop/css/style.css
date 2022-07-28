@@ -95,7 +95,9 @@ body {
   letter-spacing: -0.5px;
   /* We use gray, and not earthy colors like this because it will make us move away from startup web personality */
   /* Generated from #e67e22 using maketintsandshades.com */
-  color: #45260a;
+  /* color: #45260a; */
+  /* Using a gray color from open-color */
+  /* color: #343a40; */
 }
 .heading-primary {
   font-size: 5.2rem;
