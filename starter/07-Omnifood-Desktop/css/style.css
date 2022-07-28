@@ -108,6 +108,10 @@ body {
   font-size: 4.4rem;
   line-height: 1.2;
 }
+.sub-heading {
+  /* To make span a block element */
+  display: block;
+}
 
 /* Buttons */
 .btn:link,
