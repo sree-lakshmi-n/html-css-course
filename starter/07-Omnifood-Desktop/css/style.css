@@ -124,6 +124,11 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
+.step-imgbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .step-img {
-  width: 30%;
+  width: 35%;
 }
