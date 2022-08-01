@@ -81,7 +81,8 @@ body {
 /* Grid with spacing */
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 /* Grid columns */
 .grid--2-cols {
