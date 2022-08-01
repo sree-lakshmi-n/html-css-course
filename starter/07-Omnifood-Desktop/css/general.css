@@ -29,6 +29,7 @@ Para default: 1.6
 - Greys:
 #555
 #333
+#ddd
 #fff
 
 --- 05 SHADOWS
@@ -115,6 +116,9 @@ body {
   margin-bottom: 9.6rem;
 }
 .heading-tertiary {
+  font-size: 3.6rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 .sub-heading {
   /* To make span a block element */
