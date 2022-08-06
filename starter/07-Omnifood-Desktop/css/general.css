@@ -94,6 +94,9 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--center-v {
+  align-items: center;
+}
 /* h1 */
 .heading-primary,
 .heading-secondary {
