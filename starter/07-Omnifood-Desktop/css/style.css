@@ -129,6 +129,16 @@
   align-items: center;
   justify-content: center;
 }
+.step-imgbox::before {
+  content: "";
+  width: 60%;
+  /* height doesn't get set. For height% to work, we should set height% for all its parents, right upto html and body */
+  /* height: 60%; */
+  /* Tweak instead of setting height. gets the same effect */
+  padding-bottom: 60%;
+  border-radius: 50%;
+  background-color: #fdf2e9;
+}
 .step-img {
   width: 35%;
 }
