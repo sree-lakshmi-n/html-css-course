@@ -130,20 +130,29 @@
   justify-content: center;
   position: relative;
 }
-.step-imgbox::before {
+.step-imgbox::before,
+.step-imgbox::after {
   content: "";
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.step-imgbox::before {
+  background-color: #fdf2e9;
   width: 60%;
   /* height doesn't get set. For height% to work, we should set height% for all its parents, right upto html and body */
   /* height: 60%; */
   /* Tweak instead of setting height. gets the same effect */
   padding-bottom: 60%;
-  border-radius: 50%;
-  background-color: #fdf2e9;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+.step-imgbox::after {
+  background-color: #fae5d3;
+  width: 45%;
+  padding-bottom: 45%;
+  z-index: -1;
 }
 .step-img {
   width: 35%;
