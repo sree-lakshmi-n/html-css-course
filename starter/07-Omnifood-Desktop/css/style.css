@@ -208,3 +208,8 @@
 .meal-attribute {
   font-size: 2rem;
 }
+.meal-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #e67e22;
+}
