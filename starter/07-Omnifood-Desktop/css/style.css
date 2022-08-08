@@ -201,6 +201,9 @@
 }
 .meal-attributes {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 .meal-attribute {
   font-size: 1.8rem;
