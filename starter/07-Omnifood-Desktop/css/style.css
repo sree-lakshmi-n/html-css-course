@@ -199,3 +199,9 @@
   color: #333;
   margin-bottom: 3.2rem;
 }
+.meal-attributes {
+  list-style: none;
+}
+.meal-attribute {
+  font-size: 1.8rem;
+}
