@@ -198,6 +198,9 @@
 .meal-img {
   width: 100%;
 }
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
 .meal-name {
   font-size: 2.4rem;
   font-weight: 600;
@@ -215,6 +218,7 @@
   color: #333;
   background-color: #51cf66;
   border-radius: 10rem;
+  font-weight: 600;
 }
 .meal-attributes {
   list-style: none;
