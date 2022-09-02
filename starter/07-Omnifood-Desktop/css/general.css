@@ -183,6 +183,12 @@ body {
   border-bottom: 1px solid currentColor;
   /* Border incorporates current text color of the element */
   padding-bottom: 2px;
+  transition: all 0.3s;
+}
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
 
 /* margin-right */
