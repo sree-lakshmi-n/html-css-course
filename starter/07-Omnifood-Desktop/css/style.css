@@ -250,3 +250,8 @@
 .list {
   list-style-type: none;
 }
+.list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
+}
