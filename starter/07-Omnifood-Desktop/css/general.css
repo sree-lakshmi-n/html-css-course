@@ -191,6 +191,11 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+/* HELPER SETTINGS/ CLASSES */
+.center-text {
+  text-align: center;
+}
+
 /* margin-right */
 .margin-right-sm {
   margin-right: 1.6rem !important;
