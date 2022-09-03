@@ -339,8 +339,8 @@
   background-color: #ffd43b;
   color: #333;
   position: absolute;
-  top: 0%;
-  right: 0%;
+  top: 6%;
+  right: -18%;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
