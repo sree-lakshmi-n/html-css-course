@@ -335,6 +335,11 @@
   color: #333;
   margin-bottom: 1.6rem;
 }
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
 .plan-text {
   font-size: 1.6rem;
   line-height: 1.6;
