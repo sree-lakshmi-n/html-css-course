@@ -296,3 +296,11 @@
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
+.gallery-item img {
+  /* to remove the white border between images (it comes as default as images are inline-block elements */
+  display: block;
+}
