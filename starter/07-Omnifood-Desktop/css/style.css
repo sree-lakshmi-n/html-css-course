@@ -287,7 +287,8 @@
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4.8rem;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
 }
 .testimonial-img {
   width: 6.4rem;
@@ -307,6 +308,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
+  padding: 1.6rem;
+  align-self: flex-start;
 }
 .gallery-item img {
   /* to remove the white border between images (it comes as default as images are inline-block elements */
