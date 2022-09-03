@@ -280,10 +280,14 @@
 
 .testimonials-section {
   background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 58fr 42fr;
+  align-items: center;
 }
 .testimonials-container {
   padding: 9.6rem;
 }
+
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -309,10 +313,16 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
-  align-self: flex-start;
+}
+.gallery-item {
+  overflow: hidden;
 }
 .gallery-item img {
   /* to remove the white border between images (it comes as default as images are inline-block elements */
   display: block;
   width: 100%;
+  transition: all 0.4s;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
