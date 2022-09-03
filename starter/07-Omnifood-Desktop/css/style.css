@@ -300,6 +300,10 @@
   font-size: 1.6rem;
   color: #777;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 .gallery-item img {
   /* to remove the white border between images (it comes as default as images are inline-block elements */
   display: block;
