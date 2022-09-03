@@ -324,12 +324,12 @@
 .plan-name {
   color: #cf711f;
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 0.75px;
 }
 .plan-price {
-  font-size: 7.4rem;
+  font-size: 6.2rem;
   font-weight: 600;
   color: #333;
 }
