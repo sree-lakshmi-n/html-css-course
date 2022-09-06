@@ -513,14 +513,25 @@
                   id="full-name"
                   name="full-name"
                   placeholder="John Doe"
+                  required
                 />
                 <label for="email">Email: </label>
                 <input
-                  type="text"
+                  type="email"
                   id="email"
                   name="email"
                   placeholder="me@domain.com"
+                  required
                 />
+                <label for="select-where">Where did you hear from us?</label>
+                <select id="select-where" required>
+                  <option value="">Please choose an option</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube Video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="podcast">Facebook ad</option>
+                  <option value="podcast">Others</option>
+                </select>
                 <button class="btn">Sign Up Now</button>
               </form>
             </div>
