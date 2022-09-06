@@ -419,3 +419,7 @@
   /* temp */
   height: 40rem;
 }
+.cta-img {
+  background-image: url(../img/eating.jpg);
+  background-size: cover;
+}
