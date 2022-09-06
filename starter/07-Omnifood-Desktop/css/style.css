@@ -419,6 +419,10 @@
   /* temp */
   height: 40rem;
 }
+.cta-text-box {
+  color: #45260a;
+  padding: 3.2rem 6.4rem 6.4rem;
+}
 .cta-img {
   background-image: linear-gradient(
       to right bottom,
