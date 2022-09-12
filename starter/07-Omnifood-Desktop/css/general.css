@@ -152,6 +152,7 @@ body {
 }
 
 /* Buttons */
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -159,6 +160,9 @@ body {
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+  /* Only for .btn */
+  border: none;
+  cursor: pointer;
   /* Put transition on original state */
   transition: all 0.3s;
   font-weight: 600;
