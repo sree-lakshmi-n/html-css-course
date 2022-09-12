@@ -241,8 +241,9 @@ body {
 }
 *:focus {
   outline: none;
-  outline: 4px dotted #e67e22;
-  outline-offset: 8px;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem #e67d2280;
 }
 /* HELPER SETTINGS/ CLASSES */
 .center-text {
