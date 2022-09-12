@@ -200,6 +200,11 @@ body {
   align-self: end;
   padding: 1.2rem;
 }
+.btn--form:hover,
+.btn--form:active {
+  background-color: #fff;
+  color: #555;
+}
 /* Links */
 .link:link,
 .link:visited {
