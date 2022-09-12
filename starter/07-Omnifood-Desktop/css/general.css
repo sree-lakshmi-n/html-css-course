@@ -239,7 +239,11 @@ body {
   width: 3rem;
   color: #e67e22;
 }
-
+*:focus {
+  outline: none;
+  outline: 4px dotted #e67e22;
+  outline-offset: 8px;
+}
 /* HELPER SETTINGS/ CLASSES */
 .center-text {
   text-align: center;
