@@ -482,6 +482,8 @@
 }
 .social-links {
   list-style: none;
+  display: flex;
+  gap: 2.4rem;
 }
 .footer-heading {
   font-size: 1.8rem;
